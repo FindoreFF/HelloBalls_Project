@@ -1,0 +1,6 @@
+train: G:/ISDN3002/dataset/images/train
+val: G:/ISDN3002/dataset/images/val
+test: G:/ISDN3002/dataset/images/test
+
+nc: 5
+names: ["one", "call", "ok", "fist", "palm"]
