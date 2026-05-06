@@ -1,11 +1,17 @@
+**HelloBalls - Smart Tennis Machine - Your AI ball boy**
+
 Poster: [HelloBalls-Poster-CMYK.pdf](https://github.com/user-attachments/files/27423382/HelloBalls-Poster-CMYK.pdf)
-Pitch Video:
+
+Pitch Video: https://github.com/user-attachments/assets/8cc95ef7-b23d-4885-80cf-73ba0a497ce6
+
 Poster:
-<img width="1684" height="2384" alt="1" src="https://github.com/user-attachments/assets/03e52905-674e-41ec-9297-652b7a588cd1" />
-<img width="1684" height="2384" alt="2" src="https://github.com/user-attachments/assets/d405d027-57ea-46a2-95c3-e1f13995f366" />
+<img width="5264" height="7450" alt="HelloBalls-Poster-CMYK-images-1" src="https://github.com/user-attachments/assets/122d1883-a26f-4292-a723-0c315ef401cc" />
+<img width="5264" height="7450" alt="HelloBalls-Poster-CMYK-images-0" src="https://github.com/user-attachments/assets/36ad99ec-0db4-4734-bffd-e017a2d7edba" />
 
 
-HelloBalls - Smart Tennis Machine - Your AI ball boy
+
+
+
 
 **1. Project Idea**
 This project aims to design and implement a smart tennis machine that can automatically collect balls, store them, and serve them back to players on demand. Unlike traditional tennis machines that only serve balls, our system introduces computer vision–based interaction and intelligent ball retrieval, providing a seamless training experience. The motivation comes from addressing a common frustration in tennis practice: wasting time and energy picking up scattered balls.
