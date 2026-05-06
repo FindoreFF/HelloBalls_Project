@@ -1,3 +1,4 @@
+[HelloBalls-Poster-CMYK.pdf](https://github.com/user-attachments/files/27423382/HelloBalls-Poster-CMYK.pdf)
 HelloBalls - Smart Tennis Machine - Your AI ball boy
 
 1. Project Idea
