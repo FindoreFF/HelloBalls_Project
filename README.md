@@ -31,22 +31,17 @@ The vision module includes three main functions: gesture recognition, player fol
 
 #### Gesture Recognition
 
-The gesture recognition module was implemented using YOLOv11 and trained on a large-scale dataset of approximately 120,000 images.  
-The dataset covers five hand gestures: **one**, **fist**, **palm**, **ok**, and **call**.
+The gesture recognition function allows the player to control HelloBalls through simple hand gestures.  
+This enables hands-free interaction, so the player can give commands while still holding a racket.
 
-The model was trained for 25 epochs, taking approximately 120 hours, and achieved reliable real-time inference performance.
+Supported gesture commands include:
 
-Based on practical interaction needs, four gestures were selected as final control commands:
-
-| Gesture | Command |
+| Gesture | Robot Command |
 |---|---|
 | One | Serve one ball |
-| OK | Pick ball |
+| OK | Pick up balls |
 | Palm | Switch target |
 | Fist | Stop |
-
-This module enables intuitive, hands-free control of HelloBalls.  
-It allows players to interact with the robot through simple gestures while still holding a racket in one hand.
 
 #### Player Following
 
