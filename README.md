@@ -1,4 +1,26 @@
-**HelloBalls - Smart Tennis Machine - Your AI ball boy**
+# HelloBalls: Autonomous Tennis Court Assistant  - Your AI ball boy
+
+**HelloBalls** is an autonomous tennis court assistant designed to partially replace the role of a tennis ball boy.  
+It supports players by taking over repetitive on-court tasks such as ball collection, ball delivery, player following, and gesture-based interaction.
+
+Unlike a traditional tennis ball machine, helloBalls is not only focused on serving balls for training. Instead, it acts as a robotic assistant that helps maintain the practice flow by reducing interruptions caused by picking up balls or manually controlling equipment.
+
+---
+## Overview
+
+During tennis practice, players often need to stop frequently to pick up balls, reposition equipment, or ask another person to assist with ball delivery. These repetitive tasks interrupt the rhythm of practice and make solo practice less efficient.
+
+helloBalls addresses this problem by combining computer vision, robotic control, and mechanical design to create an intelligent on-court assistant that can:
+
+- Recognize user gestures
+- Follow the player on court
+- Collect tennis balls automatically
+- Deliver or feed balls when needed
+- Coordinate perception, control, and mechanical actions through a system-level state machine
+
+The goal of this project is to explore how AI and robotics can support tennis players by replacing part of the traditional ball-boy role.
+
+---
 
 Poster: [HelloBalls-Poster-CMYK.pdf](https://github.com/user-attachments/files/27423382/HelloBalls-Poster-CMYK.pdf)
 
