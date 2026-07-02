@@ -10,9 +10,9 @@ Unlike a traditional tennis ball machine, helloBalls is not only focused on serv
 
 During tennis practice, players often need to stop frequently to pick up balls, reposition equipment, or ask another person to assist with ball delivery. These repetitive tasks interrupt the rhythm of practice and make solo practice less efficient.
 
-helloBalls addresses this problem by combining computer vision, robotic control, and mechanical design to create an intelligent on-court assistant that can:
+HelloBalls addresses this problem by combining computer vision, robotic control, and mechanical design to create an intelligent on-court assistant that can:
 
-- Recognize user gestures
+- Recognize user gestures to understand player commands
 - Follow the player on court
 - Collect tennis balls automatically
 - Deliver or feed balls when needed
@@ -21,6 +21,56 @@ helloBalls addresses this problem by combining computer vision, robotic control,
 The goal of this project is to explore how AI and robotics can support tennis players by replacing part of the traditional ball-boy role.
 
 ---
+
+## Key Features
+
+### Vision Module
+
+HelloBalls uses a YOLO11-based vision module to support real-time perception on the tennis court.  
+The vision module includes three main functions: gesture recognition, player following, and tennis ball recognition.
+
+#### Gesture Recognition
+
+The gesture recognition module was implemented using YOLOv11 and trained on a large-scale dataset of approximately 120,000 images.  
+The dataset covers five hand gestures: **one**, **fist**, **palm**, **ok**, and **call**.
+
+The model was trained for 25 epochs, taking approximately 120 hours, and achieved reliable real-time inference performance.
+
+Based on practical interaction needs, four gestures were selected as final control commands:
+
+| Gesture | Command |
+|---|---|
+| One | Serve one ball |
+| OK | Pick ball |
+| Palm | Switch target |
+| Fist | Stop |
+
+This module enables intuitive, hands-free control of HelloBalls.  
+It allows players to interact with the robot through simple gestures while still holding a racket in one hand.
+
+#### Player Following
+
+The system uses YOLO11 to detect and track the player on the tennis court.  
+This allows HelloBalls to follow the player and stay within an appropriate assisting range without requiring constant manual control.
+
+#### Tennis Ball Recognition
+
+The system uses YOLO11 to recognize tennis balls on the court.  
+The detected ball positions are used to support automatic ball collection and help the robot locate balls more efficiently.
+
+### Automatic Ball Collection
+
+A mechanical ball-picking structure is designed to collect tennis balls from the court.  
+This reduces the need for players to repeatedly stop and pick up balls manually.
+
+### Ball Delivery / Feeding
+
+The robot supports controlled ball delivery, allowing it to act more like an on-court assistant rather than a traditional tennis ball machine.
+
+### State Machine Control
+
+A system-level state machine manages different operating modes, including idle, player following, ball recognition, ball collection, and ball delivery.  
+This makes the robot behavior more stable, predictable, and easier to debug.
 
 Poster: [HelloBalls-Poster-CMYK.pdf](https://github.com/user-attachments/files/27423382/HelloBalls-Poster-CMYK.pdf)
 
